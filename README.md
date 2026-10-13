@@ -12,7 +12,7 @@ Decisões do produto e próximas etapas: [`docs/ESPECIFICACAO.md`](docs/ESPECIFI
 
 1. Crie um projeto gratuito em [supabase.com](https://supabase.com).
 2. No Supabase, abra **SQL Editor**, cole o conteúdo de
-   [`supabase/migrations/0001_inicial.sql`](supabase/migrations/0001_inicial.sql) e execute.
+   cada arquivo de [`supabase/migrations/`](supabase/migrations/) **em ordem** (`0001`, `0002`, …) e execute.
 3. Copie `.env.example` para `.env` e preencha a URL e a chave `anon` do projeto
    (Project Settings → API).
 4. Instale e rode:

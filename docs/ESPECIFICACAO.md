@@ -10,7 +10,7 @@
 | Encontros | **Paquera** entre usuários (curtida recíproca = match) **e** área separada de **anunciantes** profissionais |
 | Conversa | Chat privado + botão "Marcar encontro" que gera convite e já oferece a corrida |
 | Corridas | Imediata, agendada, ida e volta; categorias Econômico, Conforto e Executivo |
-| Pagamento | Pix e cartão dentro do app; plataforma retém comissão (padrão 20%, configurável) |
+| Pagamento | Pix e cartão dentro do app via **Mercado Pago** (split); plataforma retém 20% (configurável) |
 | Motoristas | Autônomos cadastrados (CNH com EAR, veículo 2012+, antecedentes) aprovados pelo admin |
 | Sigilo | Motorista assina digitalmente o termo de confidencialidade (versão, texto e data registrados) |
 | Painel admin | Completo: aprovar cadastros, denúncias, corridas, pagamentos, bloqueios, tarifas |
@@ -28,7 +28,7 @@
 ## Etapas
 
 - [x] **1. Base:** projeto, banco completo, cadastro/login, perfil com fotos, cadastro de motorista com termo de sigilo
-- [ ] **2. Paquera:** tela Descobrir (curtir/passar), matches, filtros
+- [x] **2. Paquera:** tela Descobrir (curtir/passar), matches, filtros de idade e bairro, denunciar/bloquear
 - [ ] **3. Anunciantes:** criação e vitrine de anúncios verificados
 - [ ] **4. Chat e encontros:** mensagens em tempo real, envio de fotos, marcar encontro
 - [ ] **5. Corridas:** mapa, cálculo de preço, despacho para motoristas online, acompanhamento em tempo real, ida e volta
@@ -49,5 +49,5 @@
   funciona como classificados, sem intermediar o encontro.
 - Termos de Uso, Política de Privacidade (LGPD) e o texto final do termo de sigilo do motorista.
 - Vínculo com motoristas autônomos e regras municipais de transporte por aplicativo no Rio.
-- Políticas das lojas: Apple e Google não aceitam apps de serviços sexuais pagos; a área de
-  anunciantes pode precisar ficar só na versão web.
+- Políticas das lojas: Apple e Google não aceitam apps de serviços sexuais pagos; **decidido:** a área de
+  anunciantes fica só na versão web (navegador).
